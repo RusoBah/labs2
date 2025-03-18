@@ -14,7 +14,7 @@ class Calculator(QWidget):
         self.setGeometry(200, 100, 300, 400)
 
         self.display = QLineEdit(self)
-        self.display.setFont(QFont('Arial', 80))
+        self.display.setFont(QFont('Arial', 76))
         self.display.setAlignment(Qt.AlignRight)
         self.display.setReadOnly(True)
 
